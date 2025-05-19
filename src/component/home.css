@@ -1,0 +1,219 @@
+.intro-container {
+  background: linear-gradient(to bottom, #1e3a8a, #2563eb);
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.intro-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.intro-description {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.cta-button {
+  background-color: #fbbf24;
+  color: #111827;
+  font-weight: bold;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 999px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #f59e0b;
+}
+
+.intro-card {
+  background-color: white;
+  color: #111827;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.intro-card-top {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.badge {
+  background-color: #e0f2fe;
+  color: #0369a1;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-weight: 500;
+  width: fit-content;
+  min-width: 170px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.intro-profile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: left;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 999px;
+  object-fit: cover;
+}
+
+.profile-text {
+  flex: 1;
+}
+
+.profile-text h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.profile-text p {
+  margin: 0.3rem 0;
+  font-style: italic;
+  color: #555;
+}
+
+.profile-text ul {
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.profile-text ul li {
+  font-size: 0.95rem;
+  margin: 0.3rem 0;
+}
+
+.intro-metrics {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.metric-box {
+  background-color: #f3f4f6;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  font-weight: bold;
+  min-width: 120px;
+}
+
+.intro-highlights {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.highlight-box {
+  background-color: #4b6cb7;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  font-weight: bold;
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* ---------- Responsive CSS ---------- */
+@media (max-width: 992px) {
+  .intro-heading {
+    font-size: 1.8rem;
+  }
+
+  .intro-description {
+    font-size: 1rem;
+  }
+
+  .highlight-box {
+    width: 180px;
+    height: auto;
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .badge {
+    min-width: 150px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-heading {
+    font-size: 1.6rem;
+  }
+
+  .intro-description {
+    font-size: 0.95rem;
+  }
+
+  .highlight-box {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .intro-highlights {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-heading {
+    font-size: 1.4rem;
+  }
+
+  .intro-description {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+
+  .intro-container {
+    padding: 2rem 1rem;
+  }
+
+  .badge {
+    font-size: 0.85rem;
+    min-width: 140px;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  .metric-box {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+}

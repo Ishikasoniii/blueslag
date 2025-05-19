@@ -1,0 +1,48 @@
+.companies-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.companies-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.company-logo {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.company-logo:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive typography and image scaling */
+@media (max-width: 768px) {
+  .companies-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .company-logo {
+    max-height: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  .companies-section {
+    padding: 30px 15px;
+  }
+
+  .companies-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .company-logo {
+    max-height: 180px;
+  }
+}
