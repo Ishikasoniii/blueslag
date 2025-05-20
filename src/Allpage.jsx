@@ -13,7 +13,7 @@ function All() {
   return (
    <>
 
-   {/* <Navbar></Navbar> */}
+   <Navbar></Navbar>
    <CourseIntro></CourseIntro>
  
    <WhyUsSlider></WhyUsSlider>
@@ -21,7 +21,7 @@ function All() {
    <StatsSection></StatsSection>
 <CourseInfo></CourseInfo>
    <FaqData></FaqData>
-   {/* <Footer></Footer> */}
+   <Footer></Footer>
 
    </>
   );
