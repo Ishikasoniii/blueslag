@@ -47,8 +47,8 @@ import All from './Allpage';
 function App() {
   return (
     <Router>
-      <Navbar /> {/* Make sure to add the Navbar here so it appears on all pages */}
-
+      {/* <Navbar /> */}
+<All></All>
       <Routes>
         {/* Define all your routes inside Routes */}
         <Route path="/frontend/src/Allpage.jsx" element={<All />} />
@@ -59,7 +59,7 @@ function App() {
         <Route path="/stats" element={<StatsSection />} />
       </Routes>
 
-      <Footer /> {/* Add the Footer here so it appears on all pages */}
+      {/* <Footer />  */}
     </Router>
   );
 }
